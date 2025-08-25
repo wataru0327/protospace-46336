@@ -6,8 +6,7 @@ Rails.application.routes.draw do
   devise_for :users
 
 
-  resources :prototypes, only: [:new, :create, :index]
-
+  resources :prototypes
  
   get "up" => "rails/health#show", as: :rails_health_check
 end
