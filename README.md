@@ -12,6 +12,7 @@
 | occupation         | text    | null: false               |
 | position           | text    | null: false               |
 
+
 #### Association
 - has_many :prototypes
 - has_many :comments
